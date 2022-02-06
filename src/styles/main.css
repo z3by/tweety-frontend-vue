@@ -1,0 +1,7 @@
+@import './font.css';
+
+img,
+a {
+    user-select: none;
+    -webkit-user-drag: none;
+}
