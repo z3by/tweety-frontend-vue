@@ -4,6 +4,9 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    'Bi:threeDots': typeof import('~icons/bi/three-dots')['default']
+    BiCheck: typeof import('~icons/bi/check')['default']
+    BiThreeDots: typeof import('~icons/bi/three-dots')['default']
     BiX: typeof import('~icons/bi/x')['default']
     BookmarksIconFill: typeof import('./components/icons/BookmarksIconFill.vue')['default']
     BookmarksIconOutline: typeof import('./components/icons/BookmarksIconOutline.vue')['default']
@@ -19,6 +22,7 @@ declare module 'vue' {
     MessagesIconOutline: typeof import('./components/icons/MessagesIconOutline.vue')['default']
     MoreIcon: typeof import('./components/icons/MoreIcon.vue')['default']
     Navbar: typeof import('./components/home/Navbar.vue')['default']
+    NavItem: typeof import('./components/home/NavItem.vue')['default']
     NotificationsIconFill: typeof import('./components/icons/NotificationsIconFill.vue')['default']
     NotificationsIconOutline: typeof import('./components/icons/NotificationsIconOutline.vue')['default']
     ProfileIconFill: typeof import('./components/icons/ProfileIconFill.vue')['default']
@@ -27,9 +31,11 @@ declare module 'vue' {
     SearchInput: typeof import('./components/SearchInput.vue')['default']
     Select: typeof import('./components/Select.vue')['default']
     Sidebar: typeof import('./components/home/Sidebar.vue')['default']
+    SidebarNav: typeof import('./components/home/SidebarNav.vue')['default']
     Timeline: typeof import('./components/home/Timeline.vue')['default']
     TweetIcon: typeof import('./components/icons/TweetIcon.vue')['default']
     TweetInput: typeof import('./components/home/TweetInput.vue')['default']
+    UserDropDown: typeof import('./components/home/UserDropDown.vue')['default']
   }
 }
 
